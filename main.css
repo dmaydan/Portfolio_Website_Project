@@ -1,0 +1,184 @@
+* {
+	box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+	color: #7d97ad;
+	font-style: normal;
+	overflow-x: hidden;
+}
+img, embed, object, video {
+	max-width: 100%;
+}
+.caption-header {
+	margin: 0;
+	color: #2d3c49;
+	font-size: 25px;
+	font-weight: 600;
+}
+a {
+	color:#337ab7;
+	text-decoration:none;
+}
+a:hover {
+	color:#23527c; 
+	text-decoration:underline;
+}
+a:focus {
+	color:#23527c; 
+	outline:5px auto -webkit-focus-ring-color;
+	outline-offset:-2px;
+}
+.caption {
+	text-align: center;
+}
+.header-logo {
+	margin: 0;
+	color: #42c5f4;
+	font-size: 60px;
+	font-weight: bold;
+	text-align: center;
+	grid-area: hdlg;
+}
+.header-text {
+	text-align: center;
+	grid-area: hdtxt;
+}
+.header-name {
+	margin: 0;
+	font-size: 40px;
+	font-weight: 100;}
+.header-title {
+	margin: 0;
+	font-weight: normal;
+}
+.featured-work {
+	font-weight: normal;
+	margin: 0;
+	grid-area: ftwk;
+}
+.skills {
+	font-weight: normal;
+	margin: 0;
+	grid-area: sk;
+}
+.frontend {
+	font-weight: normal;
+	margin: 0;
+	grid-area: fe;
+}
+.backend {
+	font-weight: normal;
+	margin: 0;
+	grid-area: be;
+}
+.project-1 {
+	margin: 0;
+	grid-area: prjone;
+}
+.project-1 img {
+	width: 100%;
+}
+.project-2 {
+	margin: 0;
+	grid-area: prjtwo;
+}
+.project-2 img {
+	width: 100%;
+}
+.project-3 {
+	margin: 0;
+	grid-area: prjthree;
+}
+.project-3 img {
+	width: 100%;
+}
+.project-4 {
+	margin: 0;
+	grid-area: prjfour;
+}
+.project-4 img {
+	width: 100%;
+}
+.project-5 {
+	margin: 0;
+	grid-area: prjfive;
+}
+.project-5 img {
+	width: 100%;
+}
+.project-6 {
+	margin: 0;
+	grid-area: prjsix;
+}
+.project-6 img {
+	width: 100%;
+}
+.header {
+	grid-area: header;
+	display: grid;
+	border-bottom: 3px solid #7d97ad;
+	grid-template-areas:
+	"hdlg"
+	"hdtxt";
+}
+.large-image {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	grid-area: limg;
+}
+.main {
+	grid-gap: 20px;
+	grid-area: main;
+	display: grid;
+	grid-template-areas: 
+	"ftwk"
+	"prjone"
+	"prjtwo"
+	"prjthree"
+	"prjfour"
+	"prjfive"
+	"prjsix"
+	"sk"
+	"fe"
+	"be";
+}
+.container {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-areas: 
+	"header"
+	"limg"
+	"main";
+}
+@media screen and (min-width: 600px) {
+	.header {
+		grid-template-columns: 90px 1fr;
+		grid-template-areas:
+		"hdlg hdtxt";
+	}
+	.header-logo {
+		text-align: left;
+	}
+	.header-text {
+		text-align: right;
+	}
+	.main {
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-areas: 
+		"ftwk ftwk ftwk"
+		"prjone prjtwo prjthree"
+		"prjfour prjfive prjsix"
+		"sk sk sk"
+		"fe fe fe"
+		"be be be";
+	}
+}
+@media screen and (min-width: 800px) {
+	body {
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
