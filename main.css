@@ -72,6 +72,21 @@ a:focus {
 	margin: 0;
 	grid-area: be;
 }
+.contact {
+	font-weight: normal;
+	margin: 0;
+	grid-area: ct;
+}
+.internship {
+	font-weight: normal;
+	margin: 0;
+	grid-area: int;
+}
+.email {
+	font-weight: normal;
+	margin: 0;
+	grid-area: em;
+}
 .project-1 {
 	margin: 0;
 	grid-area: prjone;
@@ -142,7 +157,10 @@ a:focus {
 	"prjsix"
 	"sk"
 	"fe"
-	"be";
+	"be"
+	"ct"
+	"int"
+	"em";
 }
 .container {
 	display: grid;
@@ -172,7 +190,10 @@ a:focus {
 		"prjfour prjfive prjsix"
 		"sk sk sk"
 		"fe fe fe"
-		"be be be";
+		"be be be"
+		"ct ct ct"
+		"int int int"
+		"em em em";
 	}
 }
 @media screen and (min-width: 800px) {
