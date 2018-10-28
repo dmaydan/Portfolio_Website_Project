@@ -77,11 +77,6 @@ a:focus {
 	margin: 0;
 	grid-area: ct;
 }
-.internship {
-	font-weight: normal;
-	margin: 0;
-	grid-area: int;
-}
 .email {
 	font-weight: normal;
 	margin: 0;
@@ -159,7 +154,6 @@ a:focus {
 	"fe"
 	"be"
 	"ct"
-	"int"
 	"em";
 }
 .container {
@@ -192,7 +186,6 @@ a:focus {
 		"fe fe fe"
 		"be be be"
 		"ct ct ct"
-		"int int int"
 		"em em em";
 	}
 }
