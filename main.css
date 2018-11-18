@@ -57,6 +57,11 @@ a:focus {
 	margin: 0;
 	grid-area: ftwk;
 }
+.cr {
+	font-weight: normal;
+	margin: 0;
+	grid-area: cr;
+}
 .cv {
 	font-weight: normal;
 	margin: 0;
@@ -155,6 +160,7 @@ a:focus {
 	"prjfour"
 	"prjfive"
 	"prjsix"
+	"cr"
 	"cv"
 	"sk"
 	"fe"
@@ -188,6 +194,7 @@ a:focus {
 		"ftwk ftwk ftwk"
 		"prjone prjtwo prjthree"
 		"prjfour prjfive prjsix"
+		"cr cr cr"
 		"cv cv cv"
 		"sk sk sk"
 		"fe fe fe"
