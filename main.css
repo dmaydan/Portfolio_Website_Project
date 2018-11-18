@@ -62,11 +62,6 @@ a:focus {
 	margin: 0;
 	grid-area: cr;
 }
-.cv {
-	font-weight: normal;
-	margin: 0;
-	grid-area: cv;
-}
 .skills {
 	font-weight: normal;
 	margin: 0;
@@ -161,7 +156,6 @@ a:focus {
 	"prjfive"
 	"prjsix"
 	"cr"
-	"cv"
 	"sk"
 	"fe"
 	"be"
@@ -195,7 +189,6 @@ a:focus {
 		"prjone prjtwo prjthree"
 		"prjfour prjfive prjsix"
 		"cr cr cr"
-		"cv cv cv"
 		"sk sk sk"
 		"fe fe fe"
 		"be be be"
