@@ -77,16 +77,6 @@ a:focus {
 	margin: 0;
 	grid-area: be;
 }
-.contact {
-	font-weight: normal;
-	margin: 0;
-	grid-area: ct;
-}
-.email {
-	font-weight: normal;
-	margin: 0;
-	grid-area: em;
-}
 .project-1 {
 	margin: 0;
 	grid-area: prjone;
@@ -158,9 +148,7 @@ a:focus {
 	"cr"
 	"sk"
 	"fe"
-	"be"
-	"ct"
-	"em";
+	"be";
 }
 .container {
 	display: grid;
@@ -191,9 +179,7 @@ a:focus {
 		"cr cr cr"
 		"sk sk sk"
 		"fe fe fe"
-		"be be be"
-		"ct ct ct"
-		"em em em";
+		"be be be";
 	}
 }
 @media screen and (min-width: 800px) {
